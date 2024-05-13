@@ -41,7 +41,7 @@ public class NqueenProlem {
     public static void Generate(char[][]grid,int col, int n){
         if(col==n){
             System.out.println(Arrays.deepToString(grid));
-//          System.out.println(Arrays.deepToString(grid));
+
             return ;
         }
 
