@@ -16,20 +16,28 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Node node = new Node(1);
+        Node node = new Node(2);
         Node head = node;
 
-        Node node2 = new Node(2);
+        Node node2 = new Node(4);
         node.next  =  node2;
 
         Node node3 = new Node(3);
         node2.next  =  node3;
 
-        Node node4 = new Node(4);
-        node3.next  =  node4;
 
-        Node node5 = new Node(5);
-        node4.next  =  node5;
+        Node nodes = new Node(5);
+        Node heads = nodes;
+
+        Node nodes2 = new Node(6);
+        nodes.next  =  nodes2;
+
+        Node nodes3 = new Node(4);
+        nodes2.next  =  nodes3;
+
+
+
+
 
 //        Operations.iteration(head);
 //        System.out.println();
@@ -67,8 +75,13 @@ public class Main {
 //        System.out.println("Middle node");
 //        GetMiddleoflinked.Middle(head);
 
+//        System.out.println();
+//        System.out.println();
+//        AlternateSplit.SplitNode(head);
+
         System.out.println();
         System.out.println();
-        AlternateSplit.SplitNode(head);
+        AddTwoLinkedList.addListNode(head, heads);
+
     }
 }
