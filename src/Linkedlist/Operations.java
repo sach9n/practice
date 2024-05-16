@@ -3,11 +3,14 @@ package Linkedlist;
 public class Operations {
     // iterating to the head
     public static void iteration(Main.Node head){
-        while(head!=null){
+//        Main.Node temp = new Main.Node(0);
+
+        while(head!=null && head.next!=null){
             System.out.print(head.data + "->");
             head = head.next;
-
         }
+
+//        System.out.println(temp.data);
     }
 
 

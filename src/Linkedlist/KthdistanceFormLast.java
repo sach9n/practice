@@ -13,7 +13,7 @@ public class KthdistanceFormLast {
         }
 
         while(fast!=null){
-            slow=slow.next;
+            slow=   slow.next;
             fast =  fast.next;
         }
 
