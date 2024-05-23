@@ -9,7 +9,7 @@ public class clycleExist {
               slow = slow.next;
               fast = fast.next.next;
 
-              if(slow == fast.next)
+              if(slow == fast)
                 return true;
         }
 

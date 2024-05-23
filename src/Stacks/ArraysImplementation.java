@@ -1,6 +1,11 @@
 package Stacks;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class ArraysImplementation {
+
+
 
     static class implementation{
         int [] arr = new int[10000];
@@ -26,6 +31,17 @@ public class ArraysImplementation {
             return top+1;
         }
 
+
+
     }
 
 }
+
+    class QueueImpolementation {
+
+      Queue<Integer> que = new ArrayDeque<>();
+
+      public static void push(){
+          for(int i = 0; i < )
+        }
+    }
