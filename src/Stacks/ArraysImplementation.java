@@ -40,8 +40,8 @@ public class ArraysImplementation {
     class QueueImpolementation {
 
       Queue<Integer> que = new ArrayDeque<>();
-
-      public static void push(){
-          for(int i = 0; i < )
-        }
+//
+//      public static void push(){
+//          for(int i = 0; i < )
+//        }
     }
